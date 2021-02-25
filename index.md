@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Vitrine.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <title>AD2R</title>
+    </head>
+    
+    <body>
+        <div class="page">
+            <header>
+               	<nav>
+					<ul>
+						<li><a href="#presentation">PRÉSENTATION</a></li>
+						<li><a href="#atelier">L'ATELIER</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</nav>
+			<div id="logo">
+				<img src="Images/logo.png" alt="Logo de AD2R"/>
+			</div>
+				<<h1><span class="titre">06 45 30 64 13</span></h1>
+				<h2>VOTRE SPÉCIALISTE</br>RÉPARATION ET ENTRETIEN</br> MOTO ET SCOOTER</h2>
+            </header>      
+            
+			<section>
+			<div id="presentation">
+				<div class= "article">
+						<h3>PRÉSENTATION</h3>
+						<p>Je m'appel, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+						<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
+						<p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+				</div>
+			<div class="aside">
+				<img src="Images/modele.jpg" alt="" id="modele" />
+			</div>
+			</section>
+			
+			<div id="atelier"></div>
+			<article> 
+				<div id="texte">
+				<p><strong>L’atelier ADR</strong></br>vous accueille du mardi au samedi.</br>
+				Nous saurons vous aider et vous conseiller</br>
+				dans une relation de confiance et de transparence.</p>
+				</div>
+			</article>
+			
+			<section>
+			<div id="service">
+			<div id="BOX1">
+				<div id="box1">
+				<img src="Images/outils.jpg" alt="outils"/>
+					<p><strong>L'ATELIER</strong></p>
+						<ul> 
+							<li>Service rapide (kit chaîne, plaquettes …)</li>
+							<li>Entretien révision courant</li>
+							<li>Montage d’accessoires</li>
+							<li>Pose de plaque d’immatriculation</li>
+						</ul>
+				</div>
+				<div id="box2">	
+				<img src="Images/restauration.jpg" alt="restauration"/>
+					<p><strong>RESTAURATION</strong></p>
+						<ul>
+							<li>Remise en état</li>
+							<li>Peinture epoxy (cadre, jantes …)</li>
+							<li>Peinture carrosserie</li>
+							<li>Restauration par microbillage</li>
+						</ul>
+				</div>
+			</div>
+			<div id="BOX2">
+				<div id="box3">
+				<img src="Images/moteur.jpg" alt="moteur"/>
+					<p><strong>REGLAGE MOTEUR</strong></p>
+						<ul>
+							<li>Cartographie injection</li>
+							<li>Synchronisation carburateurs</li>
+							<li>Remplacement de distribution</li>
+						</ul>
+				</div>
+				<div id="box4">	
+				<img src="Images/accident.jpg" alt="accident"/>
+					<p><strong>ACCIDENT</strong></p>
+						<ul>
+							<li>Passage d'expert</li>
+							<li>Chiffrage</li>
+							<li>Réparation</li>
+						</ul>
+				</div>
+			</div>
+            </div>
+			</section>
+			
+			<section>
+			<div id="contact">
+				<h1><span class="numero">NOUS CONTACTER</span></h1>
+				<p>Besoin d’un renseignement, un devis ou prendre rendez-vous…<br/>Nous vous répondrons dans les meilleurs délais
+				</br><span class="numero">06 45 30 64 13</span></p>
+				<div id="plan">	
+				<form action="envoi.php" method="post">
+					<div>
+						<label for="name">Nom</label></br>
+						<input type="text" id="name" name="user_name">
+					</div>
+					<div>
+						<label for="mail">e-mail</label></br>
+						<input type="email" id="mail" name="user_mail">
+					</div>
+					<div>
+						<label for="msg">Message</label></br>
+						<textarea id="msg" name="user_message"></textarea>
+					</div>
+					<div class="button">
+						<button type="submit">Envoyer le message</button>
+					</div>
+				</form>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10513.96038808943!2d2.4179282401401503!3d48.791624168494444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6736a57d65231%3A0xb2833b2d237b7037!2sAtelier%20D2R!5e0!3m2!1sfr!2sfr!4v1612993855817!5m2!1sfr!2sfr" 
+				"</iframe>
+            </div>
+			</section>
+			<footer>
+			<a href="#" id="haut"></a>
+			</footer>
+		</div>
+    </body>
+</html>
